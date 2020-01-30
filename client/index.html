@@ -1,0 +1,44 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Instagram Login</title>
+  <link rel="stylesheet" type="text/css" href="IndexStyle.css">
+  <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script type='text/javascript' src='index.js'></script>
+</head>
+<body>
+
+  <div class = "login">
+    <h3>Kind Of Instagram</h2>
+    <form action="">
+      <div class = "user">
+          <label for="username">Username:</label>
+          <input id = "username" type="text" name="username" 
+            placeholder="" value="">
+      </div>
+
+      <div class = "pass">
+          <label for="password">Password:</label>
+          <input id = "password" type="text" name="password" placeholder="" value="">
+      </div>
+      
+      <div class = "forgot">
+        <a  href="">Forgot your password?</a>
+      </div>
+      <div class = "logInBtn">
+        <button  type = "button" id = "logInBtn" name = "submitBtn">
+          <a href = "feed.html">Log In</a>
+        </button>
+      </div>
+      
+    </form>
+    <p id = 'error-message' class='hidden'>Incorrect Username/Password</p>
+  </div>
+
+
+
+
+</body>
+</html>
